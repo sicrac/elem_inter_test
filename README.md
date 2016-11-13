@@ -23,6 +23,8 @@ The sometimes incorrect structure of the csv file requires me to make some assum
 
 # SET UP
 
+Python >= 2.7.9
+
 `git clone https://github.com/zimonc/elem_inter_test.git`  
 `cd elem_inter_test`  
 `virtualenv env`  
