@@ -7,7 +7,7 @@ Images will be thus edited on the fly during downloading and saved on the desire
 
 Being those image supposed to be used by mobile devices it is not about large images,
 therefore storing  them as blob fields in the database, supposing perhaps to improve performances
-by using for example a file system cache, it would be a reasonable solution.  
+by using for example a file system cache, it would be a reasonable solution (who has the advantage of having not to deal with the data integrity between database and file system).  
 However, lacking sympathy for digital data blobbed in relational databases, i still chosen to store images in the file system directly.
 In the event that it becomes necessary using of multiple servers in load balancing to cope with a huge amount of requests,
 we might use a distributed key value database for storing the images.
