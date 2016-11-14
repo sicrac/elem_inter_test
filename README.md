@@ -32,14 +32,14 @@ Python >= 2.7.9
 `pip install -r requirements.txt`  
 `fab select_settings:env=dev`
 `python manage.py test`  
-`python manage.py migrate`
-`python manage.py load_csv`
-`python manage.py runserver`
+`python manage.py migrate`  
+`python manage.py load_csv`  
+`python manage.py runserver`  
 
 About the `select_settings` fab command, there are 4 valid environment: **dev**, **tst**, **acc**, **prd**.
 Only the **dev** one is working.
 
-The operation of downloading csv data and related images is implemented by a custom **django-admin** command whose name is `load_csv`:
+The operation of downloading csv data and related images is implemented by th custom **django-admin** `load_csv`:
 
 `python manage.py load_csv [--url <csv_url>] [--preserve]`
 
