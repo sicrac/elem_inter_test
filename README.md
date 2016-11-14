@@ -30,8 +30,8 @@ Python >= 2.7.9
 `virtualenv env`  
 `source env/bin/activate`  
 `pip install -r requirements.txt`  
-`fab select_settings:env=dev`
-`./dev_postgresql.sh`
+`fab select_settings:env=dev`  
+`./dev_postgresql.sh`  
 `python manage.py test`  
 `python manage.py migrate`  
 `python manage.py load_csv`  
