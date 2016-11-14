@@ -1,5 +1,17 @@
 from base import *
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': '127.0.0.1',
+        'NAME': 'dev',
+        'PORT': '5432'
+    }
+}
+
+
 INSTALLED_APPS = [
     'image_data.apps.ImageDataConfig',
     'django.contrib.admin',
